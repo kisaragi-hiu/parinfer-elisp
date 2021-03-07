@@ -1,4 +1,4 @@
-;;; parinferlib.el --- a Parinfer implementation in Emacs Lisp  -*- lexical-binding: t; -*-
+;;; parinferlib.el --- a Parinfer implementation in Emacs Lisp
 ;;
 ;; Author: Chris Oakman
 ;; Homepage: https://github.com/oakmac/parinfer-elisp

@@ -1,0 +1,19 @@
+.test:
+  script:
+    - emacs --script test.el
+
+test-24.1:
+  image: silex/emacs:24.1-ci
+  extends: .test
+
+test-25.3:
+  image: silex/emacs:25.3-ci-cask
+  extends: .test
+
+test-26.3:
+  image: silex/emacs:26.3-ci-cask
+  extends: .test
+
+test-27.1:
+  image: silex/emacs:27.1-ci-cask
+  extends: .test

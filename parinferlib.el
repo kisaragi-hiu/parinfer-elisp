@@ -1,6 +1,17 @@
-;;; parinferlib.el --- a Parinfer implementation in Emacs Lisp
-;; v1.0.0
-;; https://github.com/oakmac/parinfer-elisp
+;;; parinferlib.el --- a Parinfer implementation in Emacs Lisp  -*- lexical-binding: t; -*-
+;;
+;; Author: Chris Oakman
+;; Homepage: https://github.com/oakmac/parinfer-elisp
+;; Version: 1.0.0
+;; Package-Requires: ((emacs "24.1"))
+;; Keywords: parinfer, extensions
+;;
+;;; Commentary:
+;;
+;; Kisaragi Hiu: I'm modifying this in hope of making it more
+;; performant, as well as make it more idiomatic.
+;;
+;;; Original commentary:
 ;;
 ;; More information about Parinfer can be found here:
 ;; http://shaunlebron.github.io/parinfer/
@@ -11,6 +22,8 @@
 
 ;; NOTE: everything is namespaced under `parinferlib` with the assumption that
 ;;       Emacs extensions might use `parinfer`
+
+;;; Code:
 
 ;;------------------------------------------------------------------------------
 ;; Constants / Predicates
@@ -777,4 +790,4 @@
 
 (provide 'parinferlib)
 
-;;; parinfer-lib.el ends here
+;;; parinferlib.el ends here

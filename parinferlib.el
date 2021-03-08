@@ -747,6 +747,8 @@ X: current position."
   (puthash :error err result))
 
 (defun parinferlib--process-text (text mode options)
+  "Process TEXT in MODE with OPTIONS.
+Return the result hash-table."
   (let* ((result (parinferlib--create-initial-result text mode options))
          (orig-lines (gethash :origLines result))
          (lines-length (length orig-lines))
